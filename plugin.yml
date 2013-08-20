@@ -1,0 +1,16 @@
+name: DamageLogger
+main: com.gmail.mikeundead.DamageLogger
+version: 1.0.0
+description: Ever wanted to see a detailed damage log? Well, Here you go!
+author: ASC_Dreanor
+website: http://dev.bukkit.org/server-mods/damagelogger
+
+commands:
+   dl:
+      description: Displays all commands that are available for you.
+      usage: /dl
+
+permissions:
+  damagemeter.enable:
+    description: Allowes access to enable the players own log
+    default: true

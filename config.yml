@@ -1,0 +1,19 @@
+### Message Layout and Colors ###
+# Use standard formatting codes for different colors, http://www.minecraftwiki.net/wiki/Formatting_codes
+# isCrit results in the word "hits" or "crits"
+
+# Damage #
+DamageDone: §c%timestamp% (Health %health% (%percent%)) You %isCrit% %enemyName% for %damageDone%.
+DamageTaken: §e%timestamp% (Health %health% (%percent%)) %enemyName% %isCrit% you for %damageTaken%.
+
+# Dot Damage #
+DotDamageDone: §5%timestamp% (Health %health% (%percent%)) %enemyName% suffers %dotDamageDone% from %dotDamageCause%.
+DotDamageTaken: §d%timestamp% (Health %health% (%percent%)) You suffer %dotDamageTaken% from %dotDamageCause%.
+
+# Healing #
+HealingDone: §a%timestamp% (Health %health% (%percent%)) You healed for %healAmount%.
+HealingReceived: §b%timestamp% (Health %health% (%percent%)) You gain %healingReceived% from %healingCause%
+
+# Deaths #
+OwnDeath: §f%timestamp% (Health 0 (0%)) You die.
+OtherDeath: §f%timestamp% (Health 0 (0%)) %enemyName% dies.
